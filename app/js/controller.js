@@ -1,6 +1,6 @@
 console.log("ALMOST EXECUTING CONTROLLER");
 define(['app'], function (app) {
-    app.controller('HomeController', ['$scope', function ($scope) {
+    app.register.controller('HomeController', ['$scope', function ($scope) {
 
     	console.log("EXECUTING CONTROLLER");
 
